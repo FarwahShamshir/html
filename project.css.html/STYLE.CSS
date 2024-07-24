@@ -1,0 +1,244 @@
+/* css reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* css variables */
+:root {
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+
+
+/* Navigation Bar : logo and image */
+#logo {
+    margin: 10x 34px;
+
+}
+
+#logo img {
+    height: 59px;
+    margin: 3px 5px;
+}
+
+/* Navigation Bar : list styling */
+#navbar {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    opacity: 9;
+    background-color: rgb(104, 102, 102);
+
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Bree Serif', serif;
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(166, 160, 160);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+    color: rgb(28, 7, 7);
+}
+
+#navbar ul li {
+
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Fasthand', cursive;
+}
+
+#navbar ul a {
+    color: rgb(16, 15, 15);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul a:hover {
+    color: rgb(196, 103, 103);
+    background-color: rgb(228, 218, 218);
+}
+
+/* Home SEction */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+#home::before {
+    content: "";
+    background: url('../background.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* services section */
+#services {
+    margin: 34px;
+    display: flex;
+
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background-color: rgb(210, 203, 203);
+}
+
+#services .box img {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+
+
+/* clint section */
+#client-section {
+    height: 344px;
+    position: relative;
+    font-size: 2rem;
+}
+
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('../bakground\ L.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    
+ 
+
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-item {
+    padding: 60px;
+    margin: 6px;
+
+}
+
+#client-img {
+    height: 80px;
+    padding: 2px 6px 10px 11px;
+  
+    justify-content: space-between;
+}
+
+/* contact section */
+#contact {
+    position: relative;
+
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 83%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact\ symbol.jpg') no-repeat left;
+    background-color: rgb(148, 144, 144);
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 82px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+footer{
+    background: black ;
+    color: aliceblue;
+    padding: 9px 20px;
+}
+
+/* utility classes */
+#home h1 {
+    color: rgb(14, 17, 19);
+    text-align: center;
+}
+
+#home p {
+    color: rgb(9, 11, 13);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Fasthand', cursive;
+}
+
+.h-primary {
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Fasthand', cursive;
+
+}
+
+.h-secondary {
+    font-size: 1.9rem;
+    padding: 12px;
+    font-family: 'Fasthand', cursive;
+
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid rgb(242, 234, 234);
+    background: rgb(57, 56, 56);
+    color: rgb(223, 233, 233);
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.center {
+    text-align: center;
+}

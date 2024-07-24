@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border: 2px solid rgb(255, 155, 33);
+    background-color: rgb(242, 151, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+
+}
+
+.navbar img {
+    margin-left: 22px;
+}
+
+
+.firstsection {
+    display: flex;
+    /* border: 2px solid black; */
+    margin-top: 135px;
+    animation:reveal  10s linear  infinite;
+    
+   
+}
+
+ 
+
+
+.layer {
+    position: absolute;
+    width: 100%;
+    height: 33.33%;
+    background-color: rgba(0, 0, 0, 0); 
+    animation: layer-appear 3s linear infinite;
+}
+
+
+@keyframes reveal {
+    0% {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    }
+    8.33% {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); 
+    }
+    16.66%, 83.33% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); 
+    }
+    91.66% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    100% {
+        clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%); 
+    }
+}
+.firstsection img {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 337px;
+    position: relative;
+    /* width: 200px; 
+    height: 200px; */
+    overflow: hidden;
+    /* animation:reveal  10s linear  infinite; */
+
+}
+
+.overlay {
+    bottom: 0;
+    margin-left: 127px;
+    margin-bottom: 120px;
+    position: absolute;
+    
+    animation:reveal  10s linear  infinite;
+    
+
+}
+
+.overlay1 {
+    bottom: 0;
+    margin-left: 127px;
+    margin-bottom: -245px;
+    position: absolute;
+    
+    animation: reveal  10s linear  infinite;
+    
+  
+}
+
+.overlay2 {
+    bottom: 0;
+    margin-left: 127px;
+    margin-bottom: -49px;
+    position: absolute;
+    
+    
+    animation: reveal  10s linear  infinite;
+
+}
+
+.right {
+    width: 85%;
+    /* border: 2px solid green; */
+    /* animation:reveal  10s linear  infinite; */
+}
+.right h1{
+    margin-top: 103px;
+    font-weight: bold;
+    font-size: 45px;
+    color: #284087;
+}
+
+.left {
+    width: 50%;
+    /* border: 2px solid rgb(0, 0, 128); */
+    /* animation:reveal  10s linear  infinite; */
+    
+}
+.param{
+    margin-left: -130px;
+    padding-top: 121px;
+    /* animation:reveal  10s linear  infinite; */
+ }
+ .param h1{
+    font-family: "myriad-pro" sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+ 
+
+.secSection {
+    background-color: #284087;
+    color: rgb(241, 241, 241);
+
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.secSection a img {
+    margin-right: 13px;
+   
+   
+}
+
+.secSection h1 {
+    margin-left: 360px;
+    margin-top: 97px;
+    font-family: "myriad-pro" sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.letter h1{
+    color: #284087;
+}
+    
+
+
+
+
+.secSection h5 {
+    margin-left: 364px;
+    margin-top: 21px;
+    font-family: "myriad-pro" sans-serif;
+    font-weight: lighter;
+   text-align: justify;
+    
+    
+}
+
+
+.newspaper1 {
+    width: 30%;
+    padding-left: 158px;
+    margin-left: 142px;
+    margin-top: 72px;
+    border-bottom: 2px solid white;
+    font-family: "myriad-pro" sans-serif;
+    
+  
+  
+    
+  
+  
+   
+}
+.newspaper2 {
+    width: 30%;
+    padding-bottom: 86px;
+    margin-top: 6px;
+    margin-left: -172px;
+   
+ 
+  
+    
+   
+}
+::placeholder { 
+    color: white;
+    font-family: "myriad-pro" sans-serif;
+    font-size: 12pt;
+  
+  }
+  
+.newspaper1 input{
+    margin-left: -146px;
+    margin-bottom: 25px;
+    border: none;
+    outline: none;
+    background: none;
+
+  
+   
+}
+/* .new2{
+    border-bottom: 2px solid white ;
+  
+} */
+.new2 input{
+    margin-left: -9px;
+    margin-bottom: -20px;
+   border-bottom: 2px solid white;
+   color: azure;
+   padding-top: 38px;
+   
+   /* border-bottom-width: 4px; */
+
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+.button-sendhere {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 43px;
+    margin-top: 510px;
+    margin-left: -256px;
+    background-color: #DC9322;
+}
+
+
+
+/* .newspaper3{
+  
+   
+    
+    
+
+} */ */
+
+
+
+
+
+
+.fourthSection {
+    /* border: 2px solid yellow; */
+    display: flex;
+
+}
+
+
+.pic1 {
+    /* border: 2px solid green; */
+   
+    margin-left: 846px;
+}
+.fourthSection h1{
+    margin-left: 846px;
+    font-family: "myriad-pro" sans-serif;
+    font-size: 30pt;
+
+}
+.fourthSection h6{
+    margin-left: 825px;
+    font-family: "myriad-pro" sans-serif;
+    font-size: 12pt;
+
+}
+.pic2 {
+     
+    margin-left: 681px;
+    margin-top: 76px;
+    
+}
+
+.overlay3{
+    position: absolute;
+    margin-left: -206px;
+    margin-top: 65px;
+    
+   
+}
+
+    
+
+
+
+.overlay3:hover{
+    color: blue; 
+    clip-path: circle();
+
+}
+.overlay4 {
+    position: absolute;
+    margin-left: -112px;
+    margin-top: 114px;
+    
+    animation: moveIcons 10s linear infinite;
+   
+}
+
+
+.overlay5 {
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 166px;
+    
+    animation: moveIcons 10s linear infinite;
+    
+    
+}
+@keyframes moveIcons {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.overlay6 {
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 232px;
+   
+    
+
+}
+
+
+ .overlay13 {
+
+    position: absolute;
+    margin-top: 678px;
+    margin-left: 30px;
+ }
+   
+
+
+.overlay14 {
+    position: absolute;
+    margin-top: 780px;
+    margin-left: 320px;
+
+}
+.text2 h2{
+    position: absolute;
+    margin-top: 178px;
+    font-family: "myriad-pro";
+    margin-left: -69px;
+}
+    
+
+.text2 h1{
+    position: absolute;
+    margin-top: 244px;
+    margin-left: -76px;
+    color: #284087;
+    font-size: 34px;
+    font-family: "myriad-pro";
+}
+
+
+
+.btn {
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 26px;
+    padding: 12px 38px;
+    background-color: #DC9322;
+    margin-top: 13px;
+    margin-left: -165px;
+}
+
+.down{
+    border: 2px solid rgb(22, 2, 2);
+    background-color: blueviolet;
+}
+.last{
+    /* border: 2px solid red; */
+    display: flex;
+    position: static;
+    margin-top: 912px;
+    
+}
+
+
+.pic5{
+    /* border: 2px solid black; */
+   
+   
+  
+}
